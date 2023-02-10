@@ -1,0 +1,28 @@
+{
+    "name": "goodday/goodwall",
+    "description": "IP Whitelist protection for routes",
+    "keywords": [
+        "goodday",
+        "ip whitelist",
+        "routes protection"
+    ],
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Goodday\\Goodwall\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Goodday\\Goodwall\\Providers\\GoodwallServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "KredituApvienosana.lv",
+    "short_name": "KredituApvienosana",
+    "description": "Apmaksā visus kredītus ar vienu ikmēneša maksājumu - KredituApvienosana.lv",
+    "icons": [
+        {
+            "src": "/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://www.kredituapvienosana.lv/lv?utm_campaign=a2hs",
+    "display": "fullscreen",
+    "theme_color": "#fff",
+    "background_color": "#fff"
+}

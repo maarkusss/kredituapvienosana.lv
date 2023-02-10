@@ -1,0 +1,1 @@
+window.onload=function(){var c=document.querySelector("#checkAll"),e=document.querySelectorAll("input[type=checkbox]"),n=0;e.forEach((function(c){if(0==c.checked&&(n+=1),2==n)return!1})),c.checked=1==n,null==c||c.addEventListener("change",(function(c){c.target.checked?e.forEach((function(c){c.checked=!0})):e.forEach((function(c){c.checked=!1}))}))};

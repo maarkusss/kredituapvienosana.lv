@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.transition {
+    animation: growOut 300ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growOut {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.calculator {
+    background-image: url('/images/calculator-pencil.webp');
+  }
+  .no-webp .calculator {
+    /* fallback to png */
+    background-image: url('/images/calculator-pencil.jpg');
+  }
+
+  
+.darktint {
+    background-image: url('/images/dark_tint.webp');
+  }
+  .no-webp .darktint {
+    /* fallback to png */
+    background-image: url('/images/dark_tint.png');
+  }
